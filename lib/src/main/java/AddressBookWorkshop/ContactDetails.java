@@ -36,7 +36,6 @@ public class ContactDetails
         this.phoneNumber = phoneNumber;
         this.email = email;
     }
-
     /**
      * This method is use to get the firstname 
      * @return
@@ -56,7 +55,7 @@ public class ContactDetails
     }
     /**
      * This method is use to get the last name.
-     * @return
+     * @return string value
      */
 
     public String getLastName() 
@@ -74,7 +73,7 @@ public class ContactDetails
     }
     /**
      * This method is use to get area .
-     * @return
+     * @return string value
      */
     public String getArea()
     {
@@ -91,13 +90,12 @@ public class ContactDetails
 
     /**
      * This method is use to get the city
-     * @return
+     * @return string value
      */
     public String getCity() 
     {
         return this.city;
     }
-
     /**
      * This method is use to set the city
      * @param city
@@ -106,10 +104,9 @@ public class ContactDetails
     {
         this.city = city;
     }
-
     /**
      * This method is use to get the state
-     * @return
+     * @return string value
      */
     public String getState() 
     {
@@ -122,7 +119,7 @@ public class ContactDetails
     }
     /**
      * This method is use to get the zip
-     * @return
+     * @return string value
      */
     public String getZip()
     {
@@ -138,7 +135,7 @@ public class ContactDetails
     }
     /**
      * This method is use to get the phone number
-     * @return
+     * @return string value
      */
     
     public String getPhoneNumber()
@@ -155,7 +152,7 @@ public class ContactDetails
     }
     /**
      * This method is use get the email
-     * @return
+     * @return string value
      */
     public String getEmail()
     {

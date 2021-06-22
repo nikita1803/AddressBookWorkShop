@@ -1,7 +1,5 @@
 package AddressBookWorkshop;
-
 import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
 
 public class AddressBookTest 
@@ -46,5 +44,4 @@ public class AddressBookTest
 		boolean result = mobileNum.mobileNumValidation("91 9523546770");
 		assertEquals(true,result);
 	}
-
 }

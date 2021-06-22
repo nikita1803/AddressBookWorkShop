@@ -8,7 +8,6 @@ import java.util.regex.Pattern;
 
 public class AddressBook 
 {
-	
 	public static void main(String[] args) 
 	{
 		System.out.println("Welcome in address book");
@@ -101,7 +100,6 @@ public class AddressBook
         System.out.print("Enter the Address : ");
         String address = input.nextLine();
         
-
         System.out.print("Enter the City : ");
         String city = input.nextLine();
 
@@ -111,7 +109,6 @@ public class AddressBook
         System.out.print("Enter the Zip Code : ");
         String zip = input.nextLine();
         
-
         System.out.print("Enter the phone number: ");
         String phone = input.nextLine();
         System.out.println(mobileNumValidation(phone));	//mobileNumValidation function is called here
